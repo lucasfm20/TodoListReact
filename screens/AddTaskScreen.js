@@ -17,7 +17,7 @@ const AddTaskScreen = ({ navigation }) => {
         setTask('');
         navigation.navigate('Menu');
       } catch (error) {
-        console.error('Failed to save the task.', error);
+        console.error('Falha ao salvar a task.', error);
       }
     }
   };
